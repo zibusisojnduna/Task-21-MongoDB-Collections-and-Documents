@@ -56,8 +56,8 @@ use codetribe
 
 <h1>a. Facilitators Collection:</h1>
 Insert a document with the fields Name, Location, and Course:
-```
 
+```
 db.Facilitators.insertOne({
   Name: "John Doe",
   Location: "Cape Town",
