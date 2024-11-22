@@ -14,5 +14,10 @@ Go to the project directory
   cd Task-21-MongoDB-Collections-and-Documents
 ```
 
+To start Mongoshell
+```
+mongosh
+```
+
 ## Tech Stack
 **Client:** JavaScript, MongoDB
