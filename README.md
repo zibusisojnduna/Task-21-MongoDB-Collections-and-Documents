@@ -43,19 +43,19 @@ To start MongosDB Shell
 mongosh
 ```
 
-<h1>If the MongoDB server is running on a non-default host or port, specify the connection string. For example:</h1>
+If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
 ```bash
 
 mongosh "mongodb://localhost:27017"
 
 ```
 
-<h1>Switch to the desired database</h1>
+Switch to the desired database
 ```bash
 use codetribe
 ```
 
-<h1>a. Facilitators Collection:</h1>
+a. Facilitators Collection:
 Insert a document with the fields Name, Location, and Course:
 ```bash
 db.Facilitators.insertOne({
@@ -65,7 +65,7 @@ db.Facilitators.insertOne({
 })
 ```
 
-<h1>b. Trainees Collection:</h1>
+b. Trainees Collection:
 Insert a document with the fields Name, Location, and Facilitator:
 ```bash
 
@@ -76,7 +76,7 @@ db.Trainees.insertOne({
 })
 ```
 
-<h1>c. Projects Collection:</h1>
+c. Projects Collection:
 Insert a document with the fields Name, Course, and Lesson:
 ```bash
 
@@ -86,7 +86,7 @@ db.Projects.insertOne({
   Lesson: "Introduction to Node.js"
 })
 ```
-<h1>3. Verify Inserted Documents</h1>
+3. Verify Inserted Documents
 To confirm the documents were inserted, use the find() command:
 
 a. Facilitators:
@@ -101,7 +101,7 @@ c. Projects:
 ```bash
 db.Projects.find().pretty()
 ```
-<h1>4. Export the Database</h1>
+4. Export the Database
 
 To export the database, use the mongodump command. Ensure MongoDB tools are installed and added to your system's PATH.
 
