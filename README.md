@@ -4,23 +4,15 @@
 
 <p>A MongoDB database that deals with multple collections and documents</p>
 
-<h1>Prerequisites</h1>
+## Run Locally
+Clone the project
+```bash
+  git clone https://github.com/zibusisojnduna/Task-21-MongoDB-Collections-and-Documents
+```
+Go to the project directory
+```bash
+  cd Task-21-MongoDB-Collections-and-Documents
+```
 
-<p>MongoDB,MongoShell</p>
-
-<h1>Installation</h1>
-<p></p>To get started with the project, follow these steps:
-
-Clone the repository
-Run the following command to clone the project:
-
-bash
-git clone https://github.com/zibusisojnduna/Task-21-MongoDB-Collections-and-Documents
-
-Navigate into the project directory
-bash
-
-cd Task-21-MongoDB-Collections-and-Documents
-
-Configure MongoDB connection
-Ensure your MongoDB instance is running, and modify the database connection string as needed in your code (e.g., mongodb://localhost:27017/codetribe)</p>
+## Tech Stack
+**Client:** JavaScript, MongoDB
