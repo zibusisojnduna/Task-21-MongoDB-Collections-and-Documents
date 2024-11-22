@@ -12,7 +12,7 @@
 <h1>Prerequisites</h1>
 <p>Before you begin, ensure you have met the following requirements:</p>
 
-<p>MongoDB: This project requires MongoDB to be installed and running. You can download it here.</p>
+<p>MongoDB</p>
 
 <p>Mongo Compass</p>
 
