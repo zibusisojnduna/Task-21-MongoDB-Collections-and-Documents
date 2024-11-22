@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6740550bfc3e968be30d8196"
+  },
+  "name": "Zibusiso Nduna",
+  "location": "Pietermaritzburg",
+  "facilitator": "Dlozi Mthethwa"
+},
+{
+  "_id": {
+    "$oid": "67405539fc3e968be30d8197"
+  },
+  "name": "Thandeka Mazibuko",
+  "location": "Pietermaritzburg",
+  "facilitator": "Dlozi Mthethwa"
+},
+{
+  "_id": {
+    "$oid": "67405551fc3e968be30d8198"
+  },
+  "name": "Thobani Zondi",
+  "location": "Pietermaritzburg",
+  "facilitator": "Dlozi Mthethwa"
+},
+{
+  "_id": {
+    "$oid": "6740557ffc3e968be30d8199"
+  },
+  "name": "Thumelo Dlungwane",
+  "location": "Soweto",
+  "facilitator": "Zak Tinga"
+},
+{
+  "_id": {
+    "$oid": "6740558efc3e968be30d819a"
+  },
+  "name": "Ayanda Hlophe",
+  "location": "Soweto",
+  "facilitator": "Zak Tinga"
+},
+{
+  "_id": {
+    "$oid": "6740559efc3e968be30d819b"
+  },
+  "name": "Lungelo Ndlovu",
+  "location": "Soweto",
+  "facilitator": "Zak Tinga"
+},
+{
+  "_id": {
+    "$oid": "674055b0fc3e968be30d819c"
+  },
+  "name": "Kabelo Sithole",
+  "location": "Soweto",
+  "facilitator": "Veronica"
+}]

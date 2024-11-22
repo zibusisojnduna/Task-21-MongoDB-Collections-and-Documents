@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67405632fc3e968be30d819d"
+  },
+  "name": "Hotel App",
+  "course": "App Development",
+  "lesson": "Redux"
+},
+{
+  "_id": {
+    "$oid": "6740565bfc3e968be30d819e"
+  },
+  "name": "Recipe App",
+  "course": "App Development",
+  "lesson": "React JS"
+},
+{
+  "_id": {
+    "$oid": "67405674fc3e968be30d819f"
+  },
+  "name": "Quiz App",
+  "course": "App Development",
+  "lesson": "Node JS"
+},
+{
+  "_id": {
+    "$oid": "6740568efc3e968be30d81a0"
+  },
+  "name": "Book Directory",
+  "course": "App Development",
+  "lesson": "Node JS"
+},
+{
+  "_id": {
+    "$oid": "674056c6fc3e968be30d81a1"
+  },
+  "name": "MongoDB Databases, collections and documents",
+  "course": "App Development",
+  "lesson": "MongoDB"
+}]

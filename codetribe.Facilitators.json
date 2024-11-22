@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "674053d7fc3e968be30d8193"
+  },
+  "name": "Dlozi Mthethwa",
+  "location": "Pietermaritzburg",
+  "course": "App Development"
+},
+{
+  "_id": {
+    "$oid": "6740543efc3e968be30d8194"
+  },
+  "name": "Veronica",
+  "location": "Johannesburg",
+  "course": "App Development"
+},
+{
+  "_id": {
+    "$oid": "67405471fc3e968be30d8195"
+  },
+  "name": "Zack Tinga",
+  "location": "Soweto",
+  "course": "App Development"
+}]
