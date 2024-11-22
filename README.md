@@ -39,25 +39,24 @@ Go to the project directory
 ```
 
 To start MongosDB Shell
-```
+```bash
 mongosh
 ```
 
 <h1>If the MongoDB server is running on a non-default host or port, specify the connection string. For example:</h1>
-```
+```bash
 
 mongosh "mongodb://localhost:27017"
 ```
 
 <h1>Switch to the desired database</h1>
-```
+```bash
 use codetribe
 ```
 
 <h1>a. Facilitators Collection:</h1>
 Insert a document with the fields Name, Location, and Course:
-
-```
+```bash
 db.Facilitators.insertOne({
   Name: "John Doe",
   Location: "Cape Town",
@@ -67,7 +66,7 @@ db.Facilitators.insertOne({
 
 <h1>b. Trainees Collection:</h1>
 Insert a document with the fields Name, Location, and Facilitator:
-```
+```bash
 
 db.Trainees.insertOne({
   Name: "Jane Smith",
@@ -78,7 +77,7 @@ db.Trainees.insertOne({
 
 <h1>c. Projects Collection:</h1>
 Insert a document with the fields Name, Course, and Lesson:
-```
+```bash
 
 db.Projects.insertOne({
   Name: "Node.js Basics",
@@ -90,15 +89,15 @@ db.Projects.insertOne({
 To confirm the documents were inserted, use the find() command:
 
 a. Facilitators:
-```
+```bash
 db.Facilitators.find().pretty()
 ```
 b. Trainees:
-```
+```bash
 db.Trainees.find().pretty()
 ```
 c. Projects:
-```
+```bash
 db.Projects.find().pretty()
 ```
 <h1>4. Export the Database</h1>
@@ -107,7 +106,7 @@ To export the database, use the mongodump command. Ensure MongoDB tools are inst
 
 Open a terminal or command prompt.
 Run the following command:
-```
+```bash
 mongodump --db=Codetribe --out=./Codetribe_Dump
 ```
 This creates a folder named Codetribe_Dump containing the exported data.
