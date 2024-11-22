@@ -45,6 +45,7 @@ mongosh
 
 <h1>If the MongoDB server is running on a non-default host or port, specify the connection string. For example:</h1>
 ```
+
 mongosh "mongodb://localhost:27017"
 ```
 
@@ -56,6 +57,7 @@ use codetribe
 <h1>a. Facilitators Collection:</h1>
 Insert a document with the fields Name, Location, and Course:
 ```
+
 db.Facilitators.insertOne({
   Name: "John Doe",
   Location: "Cape Town",
@@ -66,6 +68,7 @@ db.Facilitators.insertOne({
 <h1>b. Trainees Collection:</h1>
 Insert a document with the fields Name, Location, and Facilitator:
 ```
+
 db.Trainees.insertOne({
   Name: "Jane Smith",
   Location: "Johannesburg",
@@ -76,6 +79,7 @@ db.Trainees.insertOne({
 <h1>c. Projects Collection:</h1>
 Insert a document with the fields Name, Course, and Lesson:
 ```
+
 db.Projects.insertOne({
   Name: "Node.js Basics",
   Course: "Backend Development",
