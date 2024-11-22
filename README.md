@@ -61,6 +61,7 @@ db.Facilitators.insertOne({
   Location: "Cape Town",
   Course: "Web Development"
 })
+
 ```
 
 <h1>b. Trainees Collection:</h1>
