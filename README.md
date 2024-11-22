@@ -45,7 +45,9 @@ mongosh
 
 <h1>If the MongoDB server is running on a non-default host or port, specify the connection string. For example:</h1>
 ```bash
+
 mongosh "mongodb://localhost:27017"
+
 ```
 
 <h1>Switch to the desired database</h1>
